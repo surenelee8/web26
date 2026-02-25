@@ -2,5 +2,6 @@
 To save work...
 
 git add .
-
+git commit -m "somum message"
+git push 
 
