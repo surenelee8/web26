@@ -48,10 +48,14 @@ document.addEventListener('keydown', () => {
 
 
 hoverbox.addEventListener('mouseenter', ()=> {
-    hoverbox.style.transform = "scale(.07)"
+    hoverbox.style.transform = "scale(0.5)"
 })
 
 
 hoverbox.addEventListener('mouseleave', ()=> {
     hoverbox.style.transform = "scale(1)"
+})
+
+dblbox.addEventListener("dblclick", () => {
+    
 })
