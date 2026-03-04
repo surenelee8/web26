@@ -57,7 +57,7 @@ hoverbox.addEventListener('mouseleave', ()=> {
 })
 
 dblbox.addEventListener("dblclick", () => {
-    dblbox.style.background = 'cyan'
-    dblbox.style.color = 'cyan'
-    dblbox.style.transform = "scale(5)"
+    document.body.style.background = "white"
 })
+
+
