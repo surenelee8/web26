@@ -35,4 +35,12 @@ document.addEventListener('keydown', () => {
                 y = y - 10;
                 movebox.style.transform = `translate(${x}px, ${y}px)`
             }
+            if (event.key == 'ArrowLeft') {
+                x = x - 10;
+                movebox.style.transform = `translate(${x}px, ${y}px)`
+            }
+            if (event.key == 'ArrowDown') {
+                y = y + 10;
+                movebox.style.transform = `translate(${x}px, ${y}px)`
+            }
 })
