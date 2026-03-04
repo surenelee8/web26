@@ -46,12 +46,12 @@ document.addEventListener('keydown', () => {
 })
 
 
+
 hoverbox.addEventListener('mouseenter', ()=> {
-    box.style.width = "100px"
-    box.style.height = "50px"
+    hoverbox.style.transform = "scale(.07)"
 })
 
 
 hoverbox.addEventListener('mouseleave', ()=> {
-
+    hoverbox.style.transform = "scale(1)"
 })
