@@ -47,8 +47,8 @@ document.addEventListener('keydown', () => {
 
 
 hoverbox.addEventListener('mouseenter', ()=> {
-    x = x - 10px;
-    box.style.width = `Xpx`
+
+    box.style.width = "120px"
 })
 
 
