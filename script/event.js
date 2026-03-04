@@ -34,5 +34,5 @@ document.addEventListener('keydown', () => {
             if (event.key == 'ArrowUp') {
                 y = y - 10;
                 movebox.style.transform = `translate(${x}px, ${y}px)`
-    }
+            }
 })
