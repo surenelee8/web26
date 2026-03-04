@@ -57,5 +57,5 @@ hoverbox.addEventListener('mouseleave', ()=> {
 })
 
 dblbox.addEventListener("click", () => {
-    rectangle.style.background = red;
+    body.style.background = red;
 })
