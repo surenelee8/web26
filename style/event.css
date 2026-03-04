@@ -15,7 +15,7 @@ body {
 .rectangle {
     height: 60px;
     width: 250px;
-    background: black;
+    background: rgb(237,211,242);
     margin: 3px;
     border-radius: 20px;
     display: flex;
