@@ -20,8 +20,11 @@ box.addEventListener('click', () => {
 
 
 spinbox.addEventListener('click', () => {
-    spinbox.classlist.toggle('start')
+    spinbox.classList.toggle('start')
 })
+
+x=0
+y=0
 
 document.addEventListener('keydown', () => {
             if (event.key == 'ArrowRight') {
