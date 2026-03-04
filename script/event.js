@@ -1,4 +1,7 @@
 box = document.querySelector('.click')
+spinbox = document.querySelector('.spin')
+movebox= document.querySelector('.move')
+
 
 colors = ['magenta', 'teal', 'cyan', 'grey', 'pink']
 index = 0;
@@ -13,14 +16,14 @@ box.addEventListener('click', () => {
 })
 
 
-spinbox = document.querySelector('.spin')
-
 spinbox.addEventListener('click', () => {
     spinbox.classlist.toggle('start')
 })
 
 document.addEventListener('keydown', () => {
-    console.log(event.key)
+    if (event.key == 'ArrowRight') {
+        movebox.style.transform = 'translate(10px)'
+    }
 })
 
 
