@@ -19,6 +19,8 @@ spinbox.addEventListener('click', () => {
     spinbox.classlist.toggle('start')
 })
 
-document.addEventListener('keydown', () =>)
+document.addEventListener('keydown', () => {
+    console.log(event.key)
+})
 
 
