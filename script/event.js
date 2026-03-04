@@ -13,9 +13,12 @@ box.addEventListener('click', () => {
 })
 
 
-spinbox = document.querySelector('.start')
+spinbox = document.querySelector('.spin')
 
 spinbox.addEventListener('click', () => {
-    spinbox.style.animation = 'spin 1s'
-
+    spinbox.classlist.toggle('start')
 })
+
+document.addEventListener('keydown', () =>)
+
+
