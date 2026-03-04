@@ -16,7 +16,7 @@ body {
 .rectangle {
     height: 60px;
     width: 250px;
-    background: rgb(237,211,242);
+    background: rgb(153, 222, 224);
     color: white;
     margin: 3px;
     border-radius: 20px;
