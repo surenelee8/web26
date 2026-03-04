@@ -45,4 +45,12 @@ document.addEventListener('keydown', () => {
             }
 })
 
-hoverbox.eve
+
+hoverbox.addEventListener('mouseenter', ()=> {
+
+})
+
+
+hoverbox.addEventListener('mouseleave', ()=> {
+
+})
