@@ -9,6 +9,7 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    background: rgb(245,215,232);
 }
 
 
@@ -16,6 +17,7 @@ body {
     height: 60px;
     width: 250px;
     background: rgb(237,211,242);
+    color: white;
     margin: 3px;
     border-radius: 20px;
     display: flex;
