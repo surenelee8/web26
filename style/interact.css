@@ -11,3 +11,7 @@ body {
     background: black;
     color: red;
 }
+
+.bg {
+    background-image: url(');
+}
