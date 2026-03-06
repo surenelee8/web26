@@ -1,5 +1,5 @@
-body = document.querySelector('.body')
+bgBox = document.querySelector('.bg')
 
-body.addEventListener('click', () => {
-    body.style.background = 'red'
+bg.addEventListener('click', () => {
+    document.body.style.background = 'red'
 })
