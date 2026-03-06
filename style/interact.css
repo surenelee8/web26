@@ -19,4 +19,5 @@ body {
     position: abosolute;
     background-repeat: no-repeat;
     background-position: center;
+    transition: flex 1s ease-in;
 }
