@@ -21,3 +21,7 @@ body {
     background-position: center;
     transition: flex 1s ease-in;
 }
+
+h3 {
+    font-size:25px;
+}
