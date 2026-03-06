@@ -15,7 +15,7 @@ body {
 .bg {
     width: 100 vw;
     height: 100 vh;
-    background-image: url('darkroom.avif');
+    background-image: "url('../images/darkroom.avif')";
     position: abosolute;
     background-repeat: no-repeat;
     background-position: center;
