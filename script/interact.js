@@ -1,5 +1,7 @@
-bgBox = document.querySelector('.bg')
+bgBox = document.querySelector('body')
 
-bg.addEventListener('click', () => {
-    document.body.style.background = 'red'
+bgBox.addEventListener('click', () => {
+    bgBox.classList.toggle("bg")
 })
+
+
