@@ -11,8 +11,8 @@
 }
 
 * {
-    box-sizing:
-    padding:
+    box-sizing: 100vp;
+    padding: 10px;
     margin: 0;
 }
 
@@ -23,7 +23,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: "Cinzel", serif;
-    padding-bottom:
+    padding-bottom: 10px;
 }
 
 .container {
@@ -49,4 +49,10 @@ body {
     display: flex;
     align-item: center;
     justify-content: space-between;
+    padding: 20px 0px;
+
+}
+
+.nav ul {
+    flex
 }
