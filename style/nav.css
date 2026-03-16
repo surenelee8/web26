@@ -64,5 +64,6 @@ body {
 }
 
 .hero {
-    
+    background-image: url('../images/clown.webp')
+    height: 100vh;
 }
