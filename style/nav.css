@@ -54,5 +54,11 @@ body {
 }
 
 .nav ul {
-    flex
+    display: flex;
+    align-item: center;
+    justify-content: center;
+}
+
+.nav a {
+    color: white;
 }
