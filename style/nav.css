@@ -28,8 +28,17 @@ body {
 
 .container {
     font-family: "Cinzel", serif;
-    background: #fafafa width: 100vw;
+    background: #fafafa
+    width: 100vw;
     min-height: 100vh;
     padding: 50px;
 
+}
+
+.nav {
+    position: fixed;
+    background: pink;
+    top: 0;
+    left: 0;
+    
 }
