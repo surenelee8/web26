@@ -31,6 +31,8 @@ h1 {
     border: 0;
     background: white;
     color: green;
+    padding: 15px 20px;
+    cursor: pointer;
 }
 
 
@@ -38,5 +40,8 @@ h1 {
     width: 100px;
     height: 100px;
     object-fit: contain;
+}
 
+.btn:hover {
+    opacity: 0.9;
 }
