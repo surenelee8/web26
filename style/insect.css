@@ -50,3 +50,8 @@ h1 {
 .btn:hover {
     opacity: 0.9;
 }
+
+.insects-list {
+    display: flex;
+    flex-wrap: wrap;
+}
