@@ -26,6 +26,17 @@ function createInsect() {
     insect = document.createElement('div')
     insect.classList.add('insect')
     insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
+    {x,y} = getRandomL()
+    insect.style.top = `${y}px`
+    insect.style.left = `${x}px`
     //insect.innerHtml = `<img src="images/roachbg.png" alt="Roach">`
     game_container.appendChild(insect)
+}
+
+function getRandomL() {
+    width = window.innerWidth;
+    height = window.innerHeight;
+    x = Math.random()*(width-200) +100
+    y = Math.random()*(height-200) +100
+    return(x,y)
 }
