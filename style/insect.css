@@ -6,7 +6,7 @@
 
 body {
     font-family: "Press Start 2P", system-ui;
-    background: green;
+    background: pink;
     color: #ffffff;
     height: 100vh;
     overflow: hidden;
@@ -34,7 +34,7 @@ h1 {
 .btn {
     border: 0;
     background: #ffffff;
-    color: #516dff;
+    color: pink;
     padding: 15px 20px;
     cursor: pointer;
     font-family: "Press Start 2P", system-ui;
