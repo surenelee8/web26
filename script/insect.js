@@ -61,12 +61,13 @@ function catchInsect(e) {
 
 function increaseScore() {
     score = score + 1
-    scoreEl.innerHTML = `Score: $(score)`
+    scoreEl.innerHTML = `Score: ${score}`
 }
 
 
 function increaseTime() {
     seconds = seconds + 1
+    m = sec
     timeEl.innerHTML = `Time: ${seconds}`
 
 }
