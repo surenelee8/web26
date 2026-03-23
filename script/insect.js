@@ -2,6 +2,7 @@ screens = document.querySelectorAll('.screen')
 choose_insect_btns = document.querySelectorAll('.choose-insect-btn')
 start_btn = document.getElementById('start-btn')
 game_container = document.querySelector('.game-container')
+score = 0;
 
 start_btn.addEventListener('click', () => {
     screens[0].classList.add('up')
@@ -49,9 +50,13 @@ function getRandomL() {
 }
 
 function catchInsect(e) {
-    //increaseScore()
-    insect = e.currentTarget
-    insect.classList.add('caught')
-    setTimeout(() => insect.remove(), 2000)
+    //this.classList.add('caught')
+    //setTimeout(() => this.remove(), 2000)
     //addInsects()
+}
+
+function increaseScore() {
+    score = score + 1
+    
+
 }
