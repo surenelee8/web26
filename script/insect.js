@@ -7,8 +7,7 @@ start_btn.addEventListener('click', () => {
     screens[0].classList.add('up')
 })
 
-for (let i = 0; i < choose_insect_btns.length; i = i + 1)
-{
+for (let i = 0; i < choose_insect_btns.length; i = i + 1) {
     choose_insect_btns[i].addEventListener('click', () => {
         screens[1].classList.add('up')
         img = choose_insect_btns[i].querySelector('img')
@@ -26,7 +25,10 @@ function createInsect() {
     insect = document.createElement('div')
     insect.classList.add('insect')
     insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
-    const {x,y} = getRandomL()
+    const {
+        x,
+        y
+    } = getRandomL()
     insect.style.top = `${y}px`
     insect.style.left = `${x}px`
     //insect.innerHtml = `<img src="images/roachbg.png" alt="Roach">`
@@ -36,15 +38,14 @@ function createInsect() {
 function getRandomL() {
     width = window.innerWidth;
     height = window.innerHeight;
-    x = Math.random()*(width-200) +100
-    y = Math.random()*(height-200) +100
-    return(x,y)
+    x = Math.random() * (width - 200) + 100
+    y = Math.random() * (height - 200) + 100
+    return (x, y)
 }
 
 function catchInsect() {
     //increaseScore()
     this.classList.add('caught')
-    setTimeout( () => this.remove(),2000)
+    setTimeout(() => this.remove(), 2000)
     addInsects()
 }
-
