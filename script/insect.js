@@ -41,7 +41,7 @@ function createInsect() {
     insect.innerHTML = `<img src="${src}" alt="${alt}" style="transform: rotate(${Math.random()*360}deg)">`
     game_container.appendChild(insect)
     insect.addEventListener('click', () => {
-        catchInsect()
+        increaseScore()
     })
 }
 
@@ -69,6 +69,6 @@ function increaseTime() {
     seconds = seconds + 1
     m = Math.floor(seconds/60)
     s = seconds % 60
-    timeEl.innerHTML = `Time: ${m}:${seconds}`
+    timeEl.innerHTML = `Time: ${m}:${s}`
 
 }
