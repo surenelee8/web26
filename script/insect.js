@@ -51,7 +51,7 @@ function getRandomL() {
 function catchInsect(e) {
     //increaseScore()
     insect = e.currentTarget
-    this.classList.add('caught')
-    setTimeout(() => this.remove(), 2000)
+    insect.classList.add('caught')
+    setTimeout(() => insect.remove(), 2000)
     //addInsects()
 }
