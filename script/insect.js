@@ -57,7 +57,7 @@ function catchInsect(insect) {
     increaseScore()
     insect.classList.add('caught')
     setTimeout(() => insect.remove(), 2000)
-    //addInsects()
+    addInsects()
 }
 
 function addInsects() {
@@ -84,5 +84,4 @@ function increaseTime() {
     }
 
     timeEl.innerHTML = `Time: ${m}:${s}`
-
 }
