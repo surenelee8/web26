@@ -1,0 +1,151 @@
+
+* {
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background:lavenderblush;
+    overflow-x: hidden;
+}
+
+
+.loading {
+    position: absolute;
+    top: 245px;
+    right:5px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search {
+    position: absolute;
+    top: 245px;
+    left: 5px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red {
+    position: absolute;
+    top: 245px;
+    right:480px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.expanding {
+    position: absolute;
+    top: 60px;
+    left: 5px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event {
+    position: absolute;
+    top: 150px;
+    left: 5px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.interact {
+    position: absolute;
+    top: 150px;
+    right: 480px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sound {
+    position: absolute;
+    top: 150px;
+    right: 5px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav {
+    position: absolute;
+    top: 60px;
+    right: 480px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insect {
+    position: absolute;
+    top: 60px;
+    right: 5px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 50px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: pink;
+}
+
+
