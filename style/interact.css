@@ -25,7 +25,15 @@ body {
 h3 {
     font-size:30px;
 }
-
+.home {
+    width: 90px;
+    height: 20px;
+    background: maroon;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+}
 
 
 

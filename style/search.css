@@ -50,3 +50,13 @@ body {
 .search.active .btn {
     transform: translateX(198px);
 }
+
+.home {
+    width: 90px;
+    height: 20px;
+    background: palevioletred;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+}

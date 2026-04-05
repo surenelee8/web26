@@ -35,3 +35,12 @@ body {
 .btn:hover {
     opacity: 0.88;
 }
+.home {
+    width: 90px;
+    height: 20px;
+    background: lightcyan;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+}

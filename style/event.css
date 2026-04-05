@@ -49,6 +49,16 @@ body {
     left: 50px;
 }
 
+.home {
+    width: 90px;
+    height: 20px;
+    background: rgb(153, 222, 224);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+}
+
 
 
 .start {
@@ -64,3 +74,5 @@ body {
         transform: rotate(360deg);
     }
 }
+
+
