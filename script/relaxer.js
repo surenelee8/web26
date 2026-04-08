@@ -9,7 +9,7 @@ breatheAnimation()
 
 function breatheAnimation() {
     text.innerText= 'Breath In!'
-    container.classList.remove('shrink')
+    container.classList.remove('small')
     container.classList.add('grow')
 
     setTimeout( ()=> {
@@ -18,7 +18,7 @@ function breatheAnimation() {
         setTimeout( ()=> {
             text.innerText = 'Breathe Out!';
             container.classList.remove('grow')
-            container.classList.add('shrink')
+            container.classList.add('small')
         }, holdTime)
     }, breatheTime)
 }
