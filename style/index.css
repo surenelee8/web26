@@ -152,6 +152,15 @@ body {
     color: pink;
 }
 
+.art {
+    align-items: center;
+    position:absolute;
+    justify-content: center;
+    left: 420px;
+    font-size: 50px;
+    color: pink;
+}
+
 .theme {
     position: absolute;
     bottom: 10px;
