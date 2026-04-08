@@ -16,12 +16,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 300px;
-    background: LemonChiffon;
-    border-radius: 300px;
-    right: 30px;
-    top:10px;
+    height: 400px;
+    width: 400px;
+    background: white;
+    right: 150px;
+    top:100px;
 }
 
 .noobbody {
