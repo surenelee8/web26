@@ -3,7 +3,7 @@
 }
 
 body {
-    background: paleturquoise;
+    background: rgb(20, 70, 255);
     display: flex;
     height: 100vh;
     align-items: center;
@@ -25,7 +25,16 @@ body {
 }
 
 .logoo {
-    
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    background: rgb(20,70,255);
+    right: 300px;
+    top:250px;
+    transform: rotate(15deg);
 }
 
 .noobbody {
