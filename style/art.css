@@ -22,5 +22,28 @@ body {
     border-radius: 300px;
     right: 30px;
     top:10px;
+}
 
+.noobbody {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    width: 250px;
+    background: navy;
+    bottom: 150px;
+    left: 300px;
+}
+
+.leftLeg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 90px;
+    background: MediumSeaGreen;
+    left: 299px;
+    bottom: 0px;
 }
