@@ -3,7 +3,7 @@
 }
 
 body {
-    background: pink;
+    background: paleturquoise;
     display: flex;
     height: 100vh;
     align-items: center;
@@ -12,11 +12,15 @@ body {
 }
 
 .sun {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
-    width: 60px;
-    background: yellow;
+    height: 300px;
+    width: 300px;
+    background: moccasin;
+    border-radius: 300px;
+    right: 30px;
+    top:10px;
 
 }
