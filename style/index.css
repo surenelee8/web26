@@ -158,6 +158,23 @@ body {
     align-items: center;
 }
 
+.relaxer {
+    position: absolute;
+    top: 345px;
+    right: 480px;
+    height: 60px;
+    width: 400px;
+    background: pink;
+    color: white;
+    margin: 3px;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .logo {
     align-items: center;
     position:absolute;
