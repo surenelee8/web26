@@ -21,3 +21,5 @@ function breathAnimation() {
         }, holdtime)
     }, breathTime)
 }
+
+setInterval(breathAnimation, )
