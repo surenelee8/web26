@@ -2,24 +2,25 @@ container = document.getElementById('container')
 text = document.getElementById('text')
 
 totalTime = 7500
-breathTime = (totalTime / 5) *
-holdTime = totalTime / 5
+breatheTime = (totalTime / 5) * 2
+holdTime = (totalTime / 5)
 
-breathAnimation()
+breatheAnimation()
 
-function breathAnimation() {
-    text.innerText = 'Breath In!'
+function breatheAnimation() {
+    text.innerText= 'Breath In!'
+    container.classList.remove('shrink')
     container.classList.add('grow')
 
-    setTimeout( () => {
+    setTimeout( ()=> {
         text.innerText = 'Hold';
 
-        setTimeout(()=>{
-            text.innerText = 'breathout';
+        setTimeout( ()=> {
+            text.innerText = 'Breathe Out!';
             container.classList.remove('grow')
-            container.classList.add('small')
-        }, holdtime)
-    }, breathTime)
+            container.classList.add('shrink')
+        }, holdTime)
+    }, breatheTime)
 }
 
-setInterval(breathAnimation, )
+setInterval(breatheAnimation, totalTime)
