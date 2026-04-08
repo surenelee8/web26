@@ -107,3 +107,13 @@ body {
 .container.small {
     animation: small 3s linear forwards;
 }
+
+.home {
+    width: 90px;
+    height: 20px;
+    background: grey;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 3px;
+}
