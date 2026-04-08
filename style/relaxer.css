@@ -55,9 +55,9 @@ body {
 
 .pointer {
     background: white;
-    border-radius: 50%
+    border-radius: 300px;
     width: 20px;
-    height:20px;
+    height: 20px;
     display: block;
     transform-origin: bottom center;
 
